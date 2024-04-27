@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Titan+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="barra-link">
+            <div class="link-redes">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+            <div class="nome-loja">
+                <h2> BURGUER-DEV</h2>
+            </div>
+        </div>
+
+        <img id="logo" src="./img/logo.PNG">
+
+        <div class="container">
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <img src="./img/buscar.png">
+                <button id="btnBusca">Buscar</button>
+
+            </div>
+
+            <div class="utilidades">
+                <div class="atendimento">
+                    <div class="atendimento-img">
+                        <i class="fa-solid fa-headset"></i>
+                        <span class="utilidades-atendimento">Atendimento</span>
+                    </div>
+                    <!-- <ul class="atendimento-list">
+                    <li class="telefone">
+                        <a href="https://web.whatsapp.com/">
+                            <i class="fa-brands fa-whatsapp"></i> 011911235151</a>
+                    </li>
+                    <li class="email">
+                        <a
+                            href="https://accounts.google.com/InteractiveLogin/signinchooser?hl=pt-br&ifkv=ARZ0qKIc1ktTqfOecqNBp8T3LvbBkqB5JezhT62n6BgE5d5I2sgdpBpAp1nJdAlQrGtSoVd4EQyY&theme=mn&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                            <i class="fa-regular fa-envelope"></i> contato@devburguer.com</a>
+                    </li>
+                </ul> -->
+                </div>
+                <a href="#secao2"><i class="fa-regular fa-user"></i>
+                    <span class="utilidades-atendimento">Minha conta</span></a>
+                <a class="car" href="javascript:somaCarrinho()"><i class="fa-solid fa-cart-shopping"></i>
+                    <span class="utilidades-atendimentoCar">Meu carrinho</span></a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="fundo">
+        <div class="botoes">
+            <button class="burguer">Burguer</button>
+            <button class="bat">Batatas</button>
+            <button class="beb">Bebidas</button>
+            <button class="combo">Combos</button>
+            <button class="vegan">Vegan</button>
+            <button class="carne">Carne</button>
+            <button class="happy">Day Happy</button>
+        </div>
+
+
+        <ul>
+            <!--<li>
+                <img src="./img/bacon-egg.png">
+                <p>X-Bacon Egg</p>
+                <p class="price">R$30,00</p>
+
+            </li>-->
+        </ul>
+
+
+    </div>
+
+</body>
+<script src="./productos.js"></script>
+<script src="./scripts.js"></script>
+
+
+</html>
