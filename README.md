@@ -9,7 +9,7 @@
 </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
-<h1 align="center">Título do Projeto: Burguer-Dev<img src= /></h1>
+<h1 align="center">Título do Projeto: Burguer-Dev <img src="https://github.com/REGINALDOBOMFIM/Burguer-Dev/blob/main/img/logo.PNG?raw=true" width="60"/></h1>
 
 <h2 align="left">📄 Síntese</h2>
 
